@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CF14C521CB018F300ADCDA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF14C511CB018F300ADCDA6 /* AppDelegate.swift */; };
+		8CF14C541CB018F300ADCDA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF14C531CB018F300ADCDA6 /* ViewController.swift */; };
+		8CF14C561CB018F300ADCDA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CF14C551CB018F300ADCDA6 /* Assets.xcassets */; };
+		8CF14C591CB018F300ADCDA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF14C571CB018F300ADCDA6 /* Main.storyboard */; };
+		8CF14C611CB0193900ADCDA6 /* Source in Resources */ = {isa = PBXBuildFile; fileRef = 8CF14C601CB0193900ADCDA6 /* Source */; };
+		8CF14C641CB0197C00ADCDA6 /* FAIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF14C631CB0197C00ADCDA6 /* FAIcon.swift */; };
+		8CF14C661CB0199600ADCDA6 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CF14C651CB0199600ADCDA6 /* FontAwesome.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8CF14C4E1CB018F300ADCDA6 /* FA OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FA OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF14C511CB018F300ADCDA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CF14C531CB018F300ADCDA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CF14C551CB018F300ADCDA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CF14C581CB018F300ADCDA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CF14C5A1CB018F300ADCDA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CF14C601CB0193900ADCDA6 /* Source */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Source; path = "/Users/xvolks/Documents/c++Projects/Font-Awesome-Swift/Source"; sourceTree = "<absolute>"; };
+		8CF14C631CB0197C00ADCDA6 /* FAIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FAIcon.swift; path = ../../Source/FAIcon.swift; sourceTree = "<group>"; };
+		8CF14C651CB0199600ADCDA6 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = ../../Source/FontAwesome.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CF14C4B1CB018F300ADCDA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CF14C451CB018F300ADCDA6 = {
+			isa = PBXGroup;
+			children = (
+				8CF14C651CB0199600ADCDA6 /* FontAwesome.ttf */,
+				8CF14C631CB0197C00ADCDA6 /* FAIcon.swift */,
+				8CF14C501CB018F300ADCDA6 /* FA OSX */,
+				8CF14C4F1CB018F300ADCDA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CF14C4F1CB018F300ADCDA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CF14C4E1CB018F300ADCDA6 /* FA OSX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CF14C501CB018F300ADCDA6 /* FA OSX */ = {
+			isa = PBXGroup;
+			children = (
+				8CF14C511CB018F300ADCDA6 /* AppDelegate.swift */,
+				8CF14C531CB018F300ADCDA6 /* ViewController.swift */,
+				8CF14C551CB018F300ADCDA6 /* Assets.xcassets */,
+				8CF14C571CB018F300ADCDA6 /* Main.storyboard */,
+				8CF14C5A1CB018F300ADCDA6 /* Info.plist */,
+			);
+			path = "FA OSX";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CF14C4D1CB018F300ADCDA6 /* FA OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF14C5D1CB018F300ADCDA6 /* Build configuration list for PBXNativeTarget "FA OSX" */;
+			buildPhases = (
+				8CF14C4A1CB018F300ADCDA6 /* Sources */,
+				8CF14C4B1CB018F300ADCDA6 /* Frameworks */,
+				8CF14C4C1CB018F300ADCDA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FA OSX";
+			productName = "FA OSX";
+			productReference = 8CF14C4E1CB018F300ADCDA6 /* FA OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CF14C461CB018F300ADCDA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Xvolks;
+				TargetAttributes = {
+					8CF14C4D1CB018F300ADCDA6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 8CF14C491CB018F300ADCDA6 /* Build configuration list for PBXProject "FA OSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CF14C451CB018F300ADCDA6;
+			productRefGroup = 8CF14C4F1CB018F300ADCDA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CF14C4D1CB018F300ADCDA6 /* FA OSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CF14C4C1CB018F300ADCDA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF14C611CB0193900ADCDA6 /* Source in Resources */,
+				8CF14C561CB018F300ADCDA6 /* Assets.xcassets in Resources */,
+				8CF14C591CB018F300ADCDA6 /* Main.storyboard in Resources */,
+				8CF14C661CB0199600ADCDA6 /* FontAwesome.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CF14C4A1CB018F300ADCDA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF14C541CB018F300ADCDA6 /* ViewController.swift in Sources */,
+				8CF14C521CB018F300ADCDA6 /* AppDelegate.swift in Sources */,
+				8CF14C641CB0197C00ADCDA6 /* FAIcon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CF14C571CB018F300ADCDA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CF14C581CB018F300ADCDA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CF14C5B1CB018F300ADCDA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CF14C5C1CB018F300ADCDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8CF14C5E1CB018F300ADCDA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "FA OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xvolks.FA-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CF14C5F1CB018F300ADCDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "FA OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xvolks.FA-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CF14C491CB018F300ADCDA6 /* Build configuration list for PBXProject "FA OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF14C5B1CB018F300ADCDA6 /* Debug */,
+				8CF14C5C1CB018F300ADCDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF14C5D1CB018F300ADCDA6 /* Build configuration list for PBXNativeTarget "FA OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF14C5E1CB018F300ADCDA6 /* Debug */,
+				8CF14C5F1CB018F300ADCDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CF14C461CB018F300ADCDA6 /* Project object */;
+}
